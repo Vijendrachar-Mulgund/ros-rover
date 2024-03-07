@@ -1,0 +1,6 @@
+<launch>
+  <rosparam command="load" file="/home/<usr>/catkin_ws/src/ros_rover/params.yaml" />
+  <node name="rover_rpm_publisher" pkg="ros_rover" type="rover_rpm.py" />
+  <node name="rover_speed_subscriber_publisher" pkg="ros_rover" type="rover_speed_calc.py" />
+  <node name="rover_speed_subscriber" pkg="ros_rover" type="rover_speed_display.py" />
+</launch>
