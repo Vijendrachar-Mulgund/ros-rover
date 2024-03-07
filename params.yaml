@@ -1,0 +1,12 @@
+pi-value: 3.1416
+rosdistro: 'noetic
+
+  '
+roslaunch:
+  uris:
+    host_vijendrachar_hp_pavilion_notebook__46601: http://vijendrachar-HP-Pavilion-Notebook:46601/
+rosversion: '1.16.0
+
+  '
+run_id: 4dfbacf6-dc6e-11ee-bda5-992bc7b89e7a
+rover-wheel-radius: 0.15
